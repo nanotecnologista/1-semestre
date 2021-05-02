@@ -4,6 +4,7 @@
 #include <conio.h>
 
 /* Programa pra Calcular a idade, meses e dias de alguém*/
+// ps: Essa questão é mó chatinha, fiz essa poha simplificada. 
 
 int main ( ) {
 
@@ -15,7 +16,8 @@ int main ( ) {
 	printf ("Calculando... \n"); 
  
 	anos = dias/365;
-    meses = anos*12;
+    meses= dias%365/30;
+	dias=  dias%365%30/7; 
 	
 	printf ("Sua idade em anos: %d. Sua idade em meses: %d. Sua idade em dias %d\n", anos, meses, dias);
 

@@ -15,22 +15,20 @@
       /* Ficou uma droga*/
 
 int main() {
-   int i, n[3], aux[3];
+   int i, n, aux;
 
-      printf (" Insira 3 valores:\n");
-      for (i = 0; i < 3; i++){
-         scanf ("%d", &n[i]);
-      }
+      printf (" Insira um valor:\n");
+      scanf ("%d", &n);
+      do{
+         printf ("O quadrado do %d numero e: %d\n", n, (n*n));
+         printf ("O cubo e: %.0f\n", pow(n, 3));
+         printf ("A raiz do e: %.2f\n\n", sqrt(n));
 
-         for (i = 0; i < 3; i++){
-             printf ("O quadrado do %d numero e: %d\n", n[i], (n[i]* n[i]));
+         printf ("Para fazer uma nova op. Digite um novo numero ou digite 0 para encerrar:\n");
+         scanf("%d", &n);
+      }while (n!=0);
+      
 
-             aux[i]= pow (n[i], 3);
-             printf ("O cubo do %d numero e: %d\n", n[i], aux[i]);
-
-             aux[i]= sqrt (n[i]);
-             printf ("A raiz do %d numero e: %d\n\n", n[i], aux[i]);
-      }
 
 system ("PAUSE");
 return (0);

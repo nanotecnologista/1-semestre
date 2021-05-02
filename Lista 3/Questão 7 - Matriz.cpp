@@ -22,14 +22,14 @@ int main ( ){
 
    for (i=1; i<=num; i++){
        for (j=1; j<=i; j++){
-          printf ("(teste: i= %d e j= %d)", i, j);
-           printf ("%d ", d);
+        //  printf ("(teste: i= %d e j= %d)", i, j);
+           printf ("%02d ", d);
            d++;
            }
            printf ("\n");
-           printf ("(teste3: i= %d e j= %d)\n", i, j);  
+          // printf ("(teste3: i= %d e j= %d)\n", i, j);  
    }
-   printf ("(teste4: i= %d e j= %d)", i, j);
+  // printf ("(teste4: i= %d e j= %d)", i, j);
 
    system ("PAUSE");
 	return (0);

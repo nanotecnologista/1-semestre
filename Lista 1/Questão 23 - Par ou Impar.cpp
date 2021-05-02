@@ -12,7 +12,7 @@
         |  |__|  | |   ---   ||   |   |   | 
          \__ __ _|  \_______/ '___'   '___' */
 
-      /* Programa saber se o número é negativo ou não*/
+      /* Programa saber se o número é ímpar ou par*/
 
 int main (){
 

@@ -11,15 +11,15 @@
         |  |__|  | |   ---   ||   |   |   | 
          \__ __ _|  \_______/ '___'   '___' */
 
-      /* Programa para converter Decimal em binário*/
+      /* Programa para calcular a resisência equivalente*/
       
 int main ( ) {
-	float req, r1, r2;
+	float req, r1, r2, r3;
 
-	printf ("Favor inserir o valor de R1 e R2:\n"); 
-	scanf ("%f %f", &r1, &r2);
+	printf ("Favor inserir o valor de R1 e R2 e R3:\n"); 
+	scanf ("%f %f %f", &r1, &r2, &r3);
 
-    req= (r1*r2)/(r1/r2);
+    req= ((r1*r2)/(r1/r2))+r3;
 
     printf ("O valor e: %.2f\n", req);
     

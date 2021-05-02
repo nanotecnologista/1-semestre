@@ -11,7 +11,7 @@
         |  |__|  | |   ---   ||   |   |   | 
          \__ __ _|  \_______/ '___'   '___' */
 
-      /* Programa para converter Decimal em binário*/
+      /* Programa para converter m/s em km/h*/
       
 int main ( ) {
 	float ms, km;
