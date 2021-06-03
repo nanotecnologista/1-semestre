@@ -14,22 +14,22 @@
       // a+b, a+c, b+c
       
 int main ( ) {
-	float a, b, c;
+	int a, b, c;
     int aux = 1;
 
     while (aux==1)
     {
         printf ("Insira 03 valores:\n"); 
-	    scanf ("%f %f %f", &a, &b, &c);
+	    scanf ("%d %d %d", &a, &b, &c);
 
        if (a>c && b>c){
-        printf("a soma dos nos numeros maiores e: %.0f", a+b);
+        printf("a soma dos nos numeros maiores e: %d", a+b);
     } 
     if (a>b && c>b){
-        printf("a soma dos nos numeros maiores e: %.0f", a+c);
+        printf("a soma dos nos numeros maiores e: %d", a+c);
     }
     if (b>a && c>a){
-       printf("a soma dos nos numeros maiores e: %.0f", c+b);
+       printf("a soma dos nos numeros maiores e: %d", c+b);
     }
     if (a==b && b==c)
     {

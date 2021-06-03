@@ -12,7 +12,7 @@
         |  |__|  | |   ---   ||   |   |   | 
          \__ __ _|  \_______/ '___'   '___' */
 
-      /* Ficou uma droga*/
+      /* Agora está melhor, obrigada Ruvian*/
 
 int main() {
    int i, n, aux;
@@ -26,7 +26,7 @@ int main() {
 
          printf ("Para fazer uma nova op. Digite um novo numero ou digite 0 para encerrar:\n");
          scanf("%d", &n);
-      }while (n!=0);
+      }while (n); // mesmo que n!=0
       
 
 
